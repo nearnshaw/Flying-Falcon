@@ -65,16 +65,16 @@
               "y": 0.10000000149011612,
               "z": 122.1500015258789
             },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
             "rotation": {
               "x": 0,
               "y": 0,
               "z": 0,
               "w": 1
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
             },
             "parent": 0
           }
@@ -392,7 +392,7 @@
         "serializationType": "map"
       },
       "data": {
-        "512": {
+        "0": {
           "json": {
             "gizmo": 0
           }
@@ -2873,7 +2873,7 @@
             "value": [
               {
                 "path": "assets/scripts/FalconController.ts",
-                "priority": 0,
+                "priority": 1000000,
                 "layout": "{\"params\": {\"glideSpeed\": {\"type\": \"number\", \"optional\": true, \"tooltip\": \"cruising speed with wings spread (m/s)\", \"value\": 12}, \"flapSpeed\": {\"type\": \"number\", \"optional\": true, \"tooltip\": \"top speed while beating wings with Shift (m/s)\", \"value\": 26}, \"diveSpeed\": {\"type\": \"number\", \"optional\": true, \"tooltip\": \"top speed while divebombing with Space (m/s)\", \"value\": 55}, \"gravity\": {\"type\": \"number\", \"optional\": true, \"tooltip\": \"downward acceleration while flying (m/s\\u00b2)\", \"value\": 18}, \"turnSpeed\": {\"type\": \"number\", \"optional\": true, \"tooltip\": \"yaw rate in radians/s (A/D)\", \"value\": 2}, \"pitchSpeed\": {\"type\": \"number\", \"optional\": true, \"tooltip\": \"pitch rate in radians/s (W = nose down, S = nose up)\", \"value\": 1.6}, \"takeoffImpulse\": {\"type\": \"number\", \"optional\": true, \"tooltip\": \"upward kick when leaving a perch (m/s)\", \"value\": 10}, \"camDistance\": {\"type\": \"number\", \"optional\": true, \"tooltip\": \"how far behind the falcon the camera flies (m)\", \"value\": 7}, \"camHeight\": {\"type\": \"number\", \"optional\": true, \"tooltip\": \"how far above the falcon the camera flies (m)\", \"value\": 2.5}, \"camFollow\": {\"type\": \"number\", \"optional\": true, \"tooltip\": \"how quickly the camera swings behind the falcon (higher = snappier)\", \"value\": 3}, \"maxLandSpeed\": {\"type\": \"number\", \"optional\": true, \"tooltip\": \"flying faster than this skims off surfaces instead of landing (m/s)\", \"value\": 30}}, \"actions\": []}"
               }
             ]
